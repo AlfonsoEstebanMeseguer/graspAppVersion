@@ -7,7 +7,7 @@ moderación con reputación/reportes/botón de pánico y gamificación.
 No hay IA conversacional, ni feed de contenido tipo red social, ni videollamada: todo gira en torno a la sala
 de voz, complementada por mensajería directa para profundizar conexiones fuera de la sala.
 
-## Documentación (empezar aquí)
+## Documentación
 
 - [`docs/README.md`](docs/README.md) — **índice completo de `docs/`**: qué documento es la fuente de verdad de
   cada tema, cuáles son instantáneas históricas que no describen el sistema de hoy, y qué manda cuando dos
