@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#FFB84D"/>
+
+  <!-- Head circle -->
+  <circle cx="256" cy="240" r="90" fill="#FFD580"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="210" r="16" fill="#2C3E50"/>
+  <circle cx="292" cy="210" r="16" fill="#2C3E50"/>
+
+  <!-- Eye shine -->
+  <circle cx="224" cy="206" r="5" fill="white" opacity="0.8"/>
+  <circle cx="296" cy="206" r="5" fill="white" opacity="0.8"/>
+
+  <!-- Eyebrows -->
+  <path d="M 200 190 Q 220 185 240 190" stroke="#E8A940" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 272 190 Q 292 185 312 190" stroke="#E8A940" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <line x1="256" y1="220" x2="256" y2="245" stroke="#E8A940" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M 220 260 Q 256 300 292 260" stroke="#2C3E50" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Rosy cheeks -->
+  <circle cx="170" cy="250" r="20" fill="#FFA07A" opacity="0.4"/>
+  <circle cx="342" cy="250" r="20" fill="#FFA07A" opacity="0.4"/>
+
+  <!-- Top shine -->
+  <ellipse cx="220" cy="170" rx="30" ry="20" fill="white" opacity="0.25"/>
+</svg>

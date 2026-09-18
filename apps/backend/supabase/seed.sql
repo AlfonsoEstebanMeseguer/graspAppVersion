@@ -1,0 +1,12 @@
+-- Fixtures de desarrollo local (`supabase db reset`).
+--
+-- **Los catálogos ya no viven aquí.** Categorías, casos concretos de experiencia e insignias se
+-- siembran desde `migrations/20260809120100_seed_catalogs.sql`, porque `supabase db push` no
+-- ejecuta este fichero contra el proyecto remoto: lo que se escribe aquí solo existe en local, y
+-- eso convierte a seed.sql en una fuente de verdad falsa para datos de los que depende el código
+-- (`onboarding-complete` devuelve 422 si un slug de categoría no existe).
+--
+-- Regla: si un dato tiene que existir en producción, va en una migración. Aquí solo van datos de
+-- prueba que nunca deben salir del portátil (usuarios falsos, salas de ejemplo, etc.).
+--
+-- Hoy no hay ninguno.

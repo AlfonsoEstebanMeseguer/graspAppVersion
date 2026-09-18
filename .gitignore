@@ -1,0 +1,51 @@
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+# `pubspec.lock` NO se ignora: apps/mobile es una aplicación, no un package.
+# Sin el lock versionado, cada máquina resuelve versiones distintas de
+# supabase_flutter / image_picker / go_router y se reproducen bugs que aquí no
+# existen. Los .lock de artefactos (gradle, etc.) ya los ignora el .gitignore
+# de cada plataforma — no hace falta un `*.lock` global que se lleve por
+# delante los ficheros de bloqueo que sí queremos.
+
+# Supabase / Backend
+.env
+.env.local
+supabase/.branches/
+supabase/functions/**/.env.local
+node_modules/
+
+# IDEs
+# `.vscode/` NO se ignora: launch.json es funcional, no preferencia personal.
+# El proyecto Flutter vive en apps/mobile, así que sin el `cwd` de ese fichero
+# F5 no encuentra el pubspec.yaml y el depurador no arranca.
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Generated
+dist/
+build/
+*.log
+
+# El harness expone un `.claude/` relativo al cwd. Si un subagente corre con el cwd
+# en apps/backend, escribe ahi su memoria y NO en la raiz, que es la ruta canonica a
+# la que apuntan CLAUDE.md y AGENTS.md. Paso el 2026-08-16: db-agent dejo tres
+# memorias en apps/backend/.claude y un indice de 3 entradas que, copiado encima del
+# bueno, habria borrado las otras diez. Se ignora para que no se versione por error.
+apps/*/.claude/

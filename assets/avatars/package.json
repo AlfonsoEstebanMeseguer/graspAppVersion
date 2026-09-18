@@ -1,0 +1,11 @@
+{
+  "name": "grasp-avatars",
+  "private": true,
+  "description": "Genera los avatares PNG de Grasp a partir de los SVG de este directorio.",
+  "scripts": {
+    "build": "node build-pngs.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

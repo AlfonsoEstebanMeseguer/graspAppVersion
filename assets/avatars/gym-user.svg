@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#FF6B35"/>
+
+  <!-- Dumbbell - left weight -->
+  <circle cx="150" cy="256" r="45" fill="#FFE4D5"/>
+
+  <!-- Dumbbell - center bar -->
+  <rect x="200" y="235" width="112" height="42" rx="21" fill="#D4521F"/>
+
+  <!-- Dumbbell - right weight -->
+  <circle cx="362" cy="256" r="45" fill="#FFE4D5"/>
+
+  <!-- Left weight details -->
+  <circle cx="150" cy="256" r="35" fill="none" stroke="#D4521F" stroke-width="3"/>
+  <circle cx="150" cy="240" r="8" fill="#D4521F"/>
+  <circle cx="150" cy="272" r="8" fill="#D4521F"/>
+
+  <!-- Right weight details -->
+  <circle cx="362" cy="256" r="35" fill="none" stroke="#D4521F" stroke-width="3"/>
+  <circle cx="362" cy="240" r="8" fill="#D4521F"/>
+  <circle cx="362" cy="272" r="8" fill="#D4521F"/>
+
+  <!-- Shine effect -->
+  <ellipse cx="200" cy="220" rx="60" ry="20" fill="white" opacity="0.2"/>
+</svg>

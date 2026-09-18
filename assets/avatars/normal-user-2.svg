@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#FF9999"/>
+
+  <!-- Head circle -->
+  <circle cx="256" cy="240" r="90" fill="#FFB8B8"/>
+
+  <!-- Eyes (different style - looking right) -->
+  <circle cx="225" cy="215" r="15" fill="#2C3E50"/>
+  <circle cx="287" cy="215" r="15" fill="#2C3E50"/>
+
+  <!-- Eye shine (angled) -->
+  <circle cx="229" cy="210" r="5" fill="white" opacity="0.8"/>
+  <circle cx="291" cy="210" r="5" fill="white" opacity="0.8"/>
+
+  <!-- Eyebrows (raised for friendly expression) -->
+  <path d="M 205 195 Q 225 185 245 195" stroke="#E88080" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 267 195 Q 287 185 307 195" stroke="#E88080" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (different angle) -->
+  <path d="M 256 220 L 248 245" stroke="#E88080" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Smile (wide and happy) -->
+  <path d="M 215 265 Q 256 305 297 265" stroke="#2C3E50" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Rosy cheeks (more prominent) -->
+  <circle cx="165" cy="260" r="22" fill="#FFB8B8" opacity="0.6"/>
+  <circle cx="347" cy="260" r="22" fill="#FFB8B8" opacity="0.6"/>
+
+  <!-- Forehead shine -->
+  <ellipse cx="256" cy="160" rx="35" ry="15" fill="white" opacity="0.2"/>
+
+  <!-- Heart decoration (optional cute element) -->
+  <path d="M 290 140 L 300 130 Q 310 130 310 140 Q 310 150 290 160 Q 270 150 270 140 Q 270 130 280 130 Z" fill="#FFF5F5" opacity="0.5"/>
+</svg>

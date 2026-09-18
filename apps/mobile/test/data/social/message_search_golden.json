@@ -1,0 +1,435 @@
+[
+  {
+    "haystack": "Canción",
+    "needle": "cancion",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "cancion",
+    "needle": "Canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "Canción",
+    "needle": "Canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "HOLA hola HoLa",
+    "needle": "hola",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      },
+      {
+        "start": 5,
+        "end": 9
+      },
+      {
+        "start": 10,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "haystack": "Hola Mundo",
+    "needle": "MUNDO",
+    "matches": [
+      {
+        "start": 5,
+        "end": 10
+      }
+    ]
+  },
+  {
+    "haystack": "canción bonita",
+    "needle": "bonita",
+    "matches": [
+      {
+        "start": 8,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "haystack": "canción bonita",
+    "needle": "bonita",
+    "matches": [
+      {
+        "start": 9,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "haystack": "canción",
+    "needle": "cancion",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "canción",
+    "needle": "cancion",
+    "matches": [
+      {
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "haystack": "cancion",
+    "needle": "canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "cancion",
+    "needle": "canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "canción",
+    "needle": "canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "canción",
+    "needle": "canción",
+    "matches": [
+      {
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "haystack": "café",
+    "needle": "cafe",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "café",
+    "needle": "cafe",
+    "matches": [
+      {
+        "start": 0,
+        "end": 5
+      }
+    ]
+  },
+  {
+    "haystack": "cafe",
+    "needle": "café",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "cafe",
+    "needle": "café",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "café̈",
+    "needle": "cafe",
+    "matches": [
+      {
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "haystack": "á̀̂bc",
+    "needle": "abc",
+    "matches": [
+      {
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "haystack": "ÁÉÍÓÚÜÑ áéíóúüñ",
+    "needle": "aeiouun",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      },
+      {
+        "start": 8,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "haystack": "El pingüino soñó",
+    "needle": "PINGUINO",
+    "matches": [
+      {
+        "start": 3,
+        "end": 11
+      }
+    ]
+  },
+  {
+    "haystack": "Mañana",
+    "needle": "manana",
+    "matches": [
+      {
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "haystack": "soñó",
+    "needle": "sono",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "🎵Canción",
+    "needle": "cancion",
+    "matches": [
+      {
+        "start": 2,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "haystack": "a🎵b🎵c",
+    "needle": "b",
+    "matches": [
+      {
+        "start": 3,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "🎵🎵🎵fin",
+    "needle": "fin",
+    "matches": [
+      {
+        "start": 6,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "haystack": "Canción 🎵 alegre",
+    "needle": "alegre",
+    "matches": [
+      {
+        "start": 11,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "haystack": "canción 🎵 alegre",
+    "needle": "alegre",
+    "matches": [
+      {
+        "start": 12,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "haystack": "aaa",
+    "needle": "aa",
+    "matches": [
+      {
+        "start": 0,
+        "end": 2
+      }
+    ]
+  },
+  {
+    "haystack": "aaaa",
+    "needle": "aa",
+    "matches": [
+      {
+        "start": 0,
+        "end": 2
+      },
+      {
+        "start": 2,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "ababab",
+    "needle": "abab",
+    "matches": [
+      {
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "haystack": "lo que sea",
+    "needle": "",
+    "matches": []
+  },
+  {
+    "haystack": "lo que sea",
+    "needle": "   ",
+    "matches": []
+  },
+  {
+    "haystack": "lo que sea",
+    "needle": "́",
+    "matches": []
+  },
+  {
+    "haystack": "",
+    "needle": "hola",
+    "matches": []
+  },
+  {
+    "haystack": "",
+    "needle": "",
+    "matches": []
+  },
+  {
+    "haystack": "hola mundo",
+    "needle": "adios",
+    "matches": []
+  },
+  {
+    "haystack": "hola mundo",
+    "needle": "  mundo  ",
+    "matches": [
+      {
+        "start": 5,
+        "end": 10
+      }
+    ]
+  },
+  {
+    "haystack": "Ærøskøbing",
+    "needle": "aeroskobing",
+    "matches": []
+  },
+  {
+    "haystack": "Łódź",
+    "needle": "lodz",
+    "matches": []
+  },
+  {
+    "haystack": "čeština",
+    "needle": "cestina",
+    "matches": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "haystack": "Ça va",
+    "needle": "ca va",
+    "matches": [
+      {
+        "start": 0,
+        "end": 5
+      }
+    ]
+  },
+  {
+    "haystack": "Straße",
+    "needle": "strasse",
+    "matches": []
+  },
+  {
+    "haystack": "La canción sonó, y otra canción mas tarde sonó",
+    "needle": "cancion",
+    "matches": [
+      {
+        "start": 3,
+        "end": 10
+      },
+      {
+        "start": 24,
+        "end": 32
+      }
+    ]
+  },
+  {
+    "haystack": "á á á",
+    "needle": "a",
+    "matches": [
+      {
+        "start": 0,
+        "end": 2
+      },
+      {
+        "start": 3,
+        "end": 4
+      },
+      {
+        "start": 5,
+        "end": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#FF6B9D"/>
+
+  <!-- Center pad (main toe) -->
+  <ellipse cx="256" cy="280" rx="55" ry="70" fill="#FFB5D5"/>
+  <ellipse cx="256" cy="280" rx="50" ry="65" fill="#FFC5E0"/>
+
+  <!-- Left upper toe -->
+  <ellipse cx="150" cy="160" rx="40" ry="55" fill="#FFB5D5" transform="rotate(-35 150 160)"/>
+  <ellipse cx="150" cy="160" rx="35" ry="50" fill="#FFC5E0" transform="rotate(-35 150 160)"/>
+
+  <!-- Right upper toe -->
+  <ellipse cx="362" cy="160" rx="40" ry="55" fill="#FFB5D5" transform="rotate(35 362 160)"/>
+  <ellipse cx="362" cy="160" rx="35" ry="50" fill="#FFC5E0" transform="rotate(35 362 160)"/>
+
+  <!-- Left lower toe -->
+  <ellipse cx="180" cy="240" rx="40" ry="55" fill="#FFB5D5" transform="rotate(-15 180 240)"/>
+  <ellipse cx="180" cy="240" rx="35" ry="50" fill="#FFC5E0" transform="rotate(-15 180 240)"/>
+
+  <!-- Right lower toe -->
+  <ellipse cx="332" cy="240" rx="40" ry="55" fill="#FFB5D5" transform="rotate(15 332 240)"/>
+  <ellipse cx="332" cy="240" rx="35" ry="50" fill="#FFC5E0" transform="rotate(15 332 240)"/>
+
+  <!-- Center pad accent lines -->
+  <line x1="256" y1="220" x2="256" y2="250" stroke="#FF99C8" stroke-width="2" opacity="0.5"/>
+  <line x1="240" y1="280" x2="272" y2="280" stroke="#FF99C8" stroke-width="2" opacity="0.5"/>
+
+  <!-- Cute shine highlights -->
+  <circle cx="200" cy="200" r="8" fill="white" opacity="0.3"/>
+  <circle cx="320" cy="210" r="6" fill="white" opacity="0.25"/>
+  <circle cx="260" cy="300" r="10" fill="white" opacity="0.2"/>
+</svg>

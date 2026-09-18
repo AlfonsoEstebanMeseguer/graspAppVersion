@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#99CCFF"/>
+
+  <!-- Head circle -->
+  <circle cx="256" cy="240" r="90" fill="#B8E0FF"/>
+
+  <!-- Eyes (winking style - one eye closed) -->
+  <circle cx="220" cy="215" r="16" fill="#2C3E50"/>
+  <ellipse cx="292" cy="220" rx="16" ry="6" fill="#2C3E50"/>
+
+  <!-- Open eye shine -->
+  <circle cx="224" cy="210" r="5" fill="white" opacity="0.8"/>
+
+  <!-- Winking eye line -->
+  <path d="M 275 225 Q 292 225 310 225" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Eyebrows (playful) -->
+  <path d="M 200 195 Q 220 180 240 195" stroke="#7BB3E8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 272 180 Q 292 185 312 175" stroke="#7BB3E8" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (simple dot) -->
+  <circle cx="256" cy="245" r="4" fill="#7BB3E8"/>
+
+  <!-- Big grin smile -->
+  <path d="M 210 270 Q 256 310 302 270" stroke="#2C3E50" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Tongue (playful) -->
+  <ellipse cx="256" cy="290" rx="20" ry="12" fill="#FF99CC"/>
+
+  <!-- Rosy cheeks (playful expression) -->
+  <circle cx="160" cy="250" r="18" fill="#FF9999" opacity="0.5"/>
+  <circle cx="352" cy="250" r="18" fill="#FF9999" opacity="0.5"/>
+
+  <!-- Hair/head shine -->
+  <ellipse cx="200" cy="170" rx="35" ry="25" fill="white" opacity="0.2"/>
+
+  <!-- Star decoration (cute element) -->
+  <g transform="translate(310, 150)">
+    <polygon points="0,-10 3,-3 10,-3 5,2 7,10 0,6 -7,10 -5,2 -10,-3 -3,-3" fill="#FFD700" opacity="0.6"/>
+  </g>
+</svg>

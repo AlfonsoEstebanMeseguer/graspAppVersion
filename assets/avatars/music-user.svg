@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#7B68EE"/>
+
+  <!-- Left ear cup -->
+  <circle cx="140" cy="200" r="50" fill="#9B88FF" stroke="#5A4AC4" stroke-width="3"/>
+  <circle cx="140" cy="200" r="35" fill="none" stroke="#DCC9FF" stroke-width="2"/>
+
+  <!-- Right ear cup -->
+  <circle cx="372" cy="200" r="50" fill="#9B88FF" stroke="#5A4AC4" stroke-width="3"/>
+  <circle cx="372" cy="200" r="35" fill="none" stroke="#DCC9FF" stroke-width="2"/>
+
+  <!-- Headband left -->
+  <path d="M 100 200 Q 120 120 160 110" fill="none" stroke="#5A4AC4" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 100 200 Q 120 120 160 110" fill="none" stroke="#9B88FF" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Headband right -->
+  <path d="M 412 200 Q 392 120 352 110" fill="none" stroke="#5A4AC4" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 412 200 Q 392 120 352 110" fill="none" stroke="#9B88FF" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Headband top center -->
+  <ellipse cx="256" cy="100" rx="100" ry="25" fill="#9B88FF" stroke="#5A4AC4" stroke-width="2"/>
+
+  <!-- Musical notes -->
+  <g>
+    <!-- First note stem -->
+    <line x1="280" y1="280" x2="280" y2="360" stroke="#DCC9FF" stroke-width="3"/>
+    <!-- First note head -->
+    <ellipse cx="272" cy="360" rx="12" ry="15" fill="#DCC9FF" transform="rotate(-20 272 360)"/>
+
+    <!-- Second note stem -->
+    <line x1="320" y1="300" x2="320" y2="370" stroke="#DCC9FF" stroke-width="3"/>
+    <!-- Second note head -->
+    <ellipse cx="312" cy="370" rx="12" ry="15" fill="#DCC9FF" transform="rotate(-20 312 370)"/>
+
+    <!-- Connecting beam -->
+    <path d="M 280 280 Q 300 275 320 300" fill="#DCC9FF"/>
+  </g>
+
+  <!-- Shine on ear cups -->
+  <ellipse cx="130" cy="180" rx="15" ry="20" fill="white" opacity="0.2"/>
+  <ellipse cx="362" cy="180" rx="15" ry="20" fill="white" opacity="0.2"/>
+</svg>

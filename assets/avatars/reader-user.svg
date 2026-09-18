@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="120" fill="#4A90E2"/>
+
+  <!-- Book spine (left page) -->
+  <path d="M 160 150 L 240 140 L 240 380 L 160 370 Z" fill="#6BA3F0"/>
+
+  <!-- Book spine (right page) -->
+  <path d="M 272 140 L 352 150 L 352 370 L 272 380 Z" fill="#2E5BB8"/>
+
+  <!-- Book center fold -->
+  <line x1="256" y1="140" x2="256" y2="380" stroke="#1E3A7A" stroke-width="2"/>
+
+  <!-- Left page lines (text) -->
+  <line x1="185" y1="180" x2="220" y2="180" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="220" x2="235" y2="220" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="260" x2="230" y2="260" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="185" y1="300" x2="225" y2="300" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+
+  <!-- Right page lines (text) -->
+  <line x1="285" y1="180" x2="325" y2="180" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="280" y1="220" x2="335" y2="220" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="280" y1="260" x2="330" y2="260" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+  <line x1="285" y1="300" x2="325" y2="300" stroke="#E0E7FF" stroke-width="2" opacity="0.7"/>
+
+  <!-- Glasses on book (optional decorative element) -->
+  <circle cx="180" cy="120" r="25" fill="none" stroke="#E0E7FF" stroke-width="3"/>
+  <circle cx="280" cy="120" r="25" fill="none" stroke="#E0E7FF" stroke-width="3"/>
+  <line x1="205" y1="120" x2="255" y2="120" stroke="#E0E7FF" stroke-width="3"/>
+  <line x1="155" y1="120" x2="155" y2="135" stroke="#E0E7FF" stroke-width="2"/>
+  <line x1="305" y1="120" x2="305" y2="135" stroke="#E0E7FF" stroke-width="2"/>
+</svg>

@@ -1,0 +1,16 @@
+# Ficheros que genera `flutter pub get` y que este repo versiona.
+#
+# Flutter los escribe SIEMPRE con LF, pero esta máquina tiene `core.autocrlf = true`, así que git
+# los quiere con CRLF en el árbol de trabajo. Resultado: los 7 aparecían como modificados sin tener
+# ni un byte de diferencia real (`git diff --numstat` vacío), y volvían a ensuciar el estado en
+# cuanto alguien ejecutaba `flutter pub get`.
+#
+# Fijarlos a LF los alinea con lo que Flutter produce y el ruido desaparece. Acotado a estos
+# ficheros a propósito: un `* text=auto` global renormalizaría el repositorio entero.
+apps/mobile/linux/flutter/generated_plugin_registrant.cc   eol=lf
+apps/mobile/linux/flutter/generated_plugin_registrant.h    eol=lf
+apps/mobile/linux/flutter/generated_plugins.cmake          eol=lf
+apps/mobile/macos/Flutter/GeneratedPluginRegistrant.swift  eol=lf
+apps/mobile/windows/flutter/generated_plugin_registrant.cc eol=lf
+apps/mobile/windows/flutter/generated_plugin_registrant.h  eol=lf
+apps/mobile/windows/flutter/generated_plugins.cmake        eol=lf
